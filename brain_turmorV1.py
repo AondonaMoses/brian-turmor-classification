@@ -35,7 +35,7 @@ def main():
         st.image(image, use_column_width=False)
         st.write("")
         st.write("Please Wait for your RESULT...")
-        label = prediction_model(image, 'C:/Users/lenovo/Desktop/brain deployment/brain-tumor-mri-classificationModel.hdf5')
+        label = prediction_model(image, 'brain-tumor-mri-classificationModel.hdf5')
         if label == 0:
             st.write(" **TEST RESULT: Glioma Tumor**")
         elif label == 1:
