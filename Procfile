@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run brain_turmorV1.py
+sh setup.sh && streamlit run brain_turmorV1.py
