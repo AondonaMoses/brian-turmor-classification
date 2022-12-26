@@ -10,6 +10,7 @@ import streamlit as st
 from PIL import Image, ImageOps
 import numpy as np
 import cv2
+import tensorflow
 
 
 st.title("Brain Turmor Classification APP")
